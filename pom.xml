@@ -27,9 +27,23 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-    
+        <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.8.1</version>
+</dependency>
+      <dependency>
+  <groupId>com.twilio.sdk</groupId>
+  <artifactId>twilio</artifactId>
+  <version>7.50.0</version>
+</dependency>
 
-
+<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-gmail -->
+<dependency>
+    <groupId>com.google.apis</groupId>
+    <artifactId>google-api-services-gmail</artifactId>
+    <version>v1-rev20181202-1.28.0</version>
+</dependency>
 
   </dependencies>
 </project>
